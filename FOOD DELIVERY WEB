@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>best food online delivery service in india / my onlinemeal.com </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1078px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/project2/Images/images.png" alt="my onlinemeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">home</a></li>
+            <li class="item"><a href="#services-container">services</a></li>
+            <li class="item"><a href="#clients-section">our clients</a></li>
+            <li class="item"><a href="#contact">contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">welcome to myonlinemeal</h1>
+        <p>Lorem ipsum dolo sit amet consectetur adipisicing elit. Officia consequuntur adipisci cum atque, ex,
+            eveniet sunt maxime necessitatibus officiis libero quaerat quasi doloremque itaque! Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Natus, asperiores earum.</p>
+        <p>Lorem ipsum dolor sit, amet Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quis quibusdam
+            tempora vitae? Delectus autem, voluptatibus voluptatum fugit doloremque iure! consectetur adipisicing elit.
+            Accusamus iusto magni magnam pariatur delectus</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center"> our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/project2/Images/pizza.webp" alt="">
+                <h2 class="h-secondary center">food catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore voluptatem illo magni
+                    atque magnam
+                    voluptate! Possimus in porro quia adipisci voluptates earum necessitatibus ipsa?
+                </p>
+            </div>
+            <div class="box">
+                <img src="/project2/Images/bg3.jpg" alt="">
+                <h2 class="h-secondary center">bulk ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore voluptatem illo magni
+                    atque magnam
+                    voluptate! Possimus in porro quia adipisci voluptates earum necessitatibus ipsa?
+                </p>
+            </div>
+            <div class="box">
+                <img src="/project2/Images/jpg.jpg" alt="">
+                <h2 class="h-secondary center">food ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore voluptatem illo magni
+                    atque magnam
+                    voluptate! Possimus in porro quia adipisci voluptates earum necessitatibus ipsa?
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="clients-section">
+        <h1 class="h-primary center">our clients</h1>
+        <div id="clients">
+            <div class="clients-item">
+                <img src="/project2/images/photo1.jpg" alt="our client">
+            </div>
+            <div class="clients-item">
+                <img src="/project2/images/photo2.png" alt="our client">
+            </div>
+            <div class="clients-item">
+                <img src="/project2/images/photo3.png" alt="our client">
+            </div>
+            <div class="clients-item">
+                <img src="/project2/images/photo4.jpg" alt="our client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">contact us</h1>
+        <div id="contact-box">
+            <form action=" ">
+                <div class="form-group">
+                    <label for="name">name:</label>
+                    <input type="text" name="name" id="text" placeholder="enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">email:</label>
+                    <input type="email" name="name" id='' email" placeholder="enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="name">phone no:</label>
+                    <input type="number" name="name" id="phone no" placeholder="enter your number">
+                </div>
+                <div class="form-group">
+                    <label for="name">message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy;www.mymealonline.com all right reserved|!
+        </div>
+    </footer>
+
+</body>
+
+</html>
